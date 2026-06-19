@@ -1,0 +1,15 @@
+{
+  "name": "jaipur-hope-backend",
+  "version": "1.0.0",
+  "description": "Jaipur Hope cafe booking API — pure Node.js, no dependencies",
+  "main": "server.js",
+  "scripts": {
+    "prepare-data": "node scripts/prepareData.js",
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "MIT"
+}
